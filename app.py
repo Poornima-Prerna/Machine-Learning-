@@ -9,7 +9,7 @@ import speech_recognition as sr
 load_dotenv()
 
 # Configure Google API key
-genai.configure(api_key=os.getenv("AIzaSyAtTh00lG2oAzJnisLwijs81_OHOPeKhLE"))
+genai.configure(api_key=os.getenv(""AIzaSyB_Vy_NAh1rlSgyyCV3zKQidA7nbzCx4u8""))
 
 # Initialize Text-to-Speech Engine
 engine = pyttsx3.init()
